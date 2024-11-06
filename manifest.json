@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Problem Fetcher",
+  "version": "1.0",
+  "description": "Fetches and lists LeetCode problems with sorting and PDF download functionality.",
+  "permissions": [
+    "declarativeNetRequest",
+    "scripting",
+    "alarms",
+    "notifications",
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*"
+  ],
+  
+  "action": {
+    "default_popup": "popup.html",
+    "default_width": 900,
+    "default_height": 600
+  },
+  "icons": {
+    "16": "icon16.png"
+  }
+}

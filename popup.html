@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Fetcher</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <h1>LeetCode Fetcher with AI Solution</h1>
+        <div class="form-group">
+            <label for="problemInput">Enter Problem Title</label>
+            <input type="text" id="problemInput" placeholder="Enter Problem Title">
+            <button id="fetchProblemBtn" class="btn">Fetch Problem</button>
+        </div>
+
+        <div class="form-group">
+            <label for="difficultySelect">Filter by Difficulty</label>
+            <select id="difficultySelect">
+                <option value="all">All</option>
+                <option value="1">Easy</option>
+                <option value="2">Medium</option>
+                <option value="3">Hard</option>
+            </select>
+            <button id="fetchAllNamesBtn" class="btn">Fetch All Problem Names</button>
+        </div>
+
+        <div class="form-group">
+            <label for="problemNumber">Enter LeetCode Problem Number (e.g., 1)</label>
+            <input type="text" id="problemNumber" placeholder="Problem number">
+            <button id="fetchLinkBtn" class="btn">Fetch Solution Link</button>
+        </div>
+
+        <div id="output"></div>
+    </div>
+    <script src="popup.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
