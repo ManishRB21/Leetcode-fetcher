@@ -100,3 +100,6 @@ The `manifest.json` file is the heart of any Chrome extension. It defines the ex
     "128": "icon128.png"
   }
 }
+### Step 3: Develop the Extension Files
+
+### Step 4: Test your extension locally
